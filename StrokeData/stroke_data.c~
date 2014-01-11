@@ -1,0 +1,563 @@
+#include "servo_motor.h"
+
+void word_8a2a() //訪
+{ 
+  moveTo(110, 80);
+  riseUp(NO);
+  moveTo(125, 95);
+  riseUp(YES);
+
+  moveTo(65, 115);
+  riseUp(NO);
+  moveTo(145, 100);
+  riseUp(YES);
+
+  moveTo(90, 135);
+  riseUp(NO);
+  moveTo(125, 125);
+  riseUp(YES);
+
+  moveTo(90, 155);
+  riseUp(NO);
+  moveTo(125, 150);
+  riseUp(YES);
+
+  moveTo(85, 175);
+  riseUp(NO);
+  moveTo(95, 210);
+  riseUp(YES);
+
+  moveTo(95, 175);
+  riseUp(NO);
+  moveTo(115, 170);
+  moveTo(120, 170);
+  moveTo(130, 170);
+  moveTo(125, 175);
+  moveTo(120, 200);
+  riseUp(YES);
+
+  moveTo(100, 205);
+  riseUp(NO);
+  moveTo(125, 200);
+  riseUp(YES);
+
+  moveTo(175, 85);
+  riseUp(NO);
+  moveTo(185, 110);
+  riseUp(YES);
+
+  moveTo(135, 125);
+  riseUp(NO);
+  moveTo(170, 120);
+  moveTo(215, 115);
+  moveTo(235, 115);
+  riseUp(YES);
+
+  moveTo(180, 140);
+  riseUp(NO);
+  moveTo(205, 145);
+  moveTo(215, 150);
+  moveTo(210, 155);
+  moveTo(195, 200);
+  moveTo(185, 215);
+  moveTo(175, 225);
+  moveTo(175, 210);
+  moveTo(165, 200);
+  riseUp(YES);
+
+  moveTo(175, 125);
+  riseUp(NO);
+  moveTo(160, 165);
+  moveTo(145, 195);
+  moveTo(125, 210);
+  riseUp(YES);
+}
+void word_5d4c()
+{
+  moveTo(150, 70);
+  riseUp(NO);
+  moveTo(145, 115);
+  riseUp(YES);
+
+  moveTo(105, 95);
+  riseUp(NO);
+  moveTo(95, 110);
+  moveTo(90, 120);
+  moveTo(95, 135);
+  moveTo(120, 120);
+  moveTo(190, 110);
+  riseUp(YES);
+
+  moveTo(195, 85);
+  riseUp(NO);
+  moveTo(190, 125);
+  riseUp(YES);
+
+  moveTo(65, 165);
+  riseUp(NO);
+  moveTo(145, 160);
+  riseUp(YES);
+
+  moveTo(90, 145);
+  riseUp(NO);
+  moveTo(90, 225);
+  riseUp(YES);
+
+  moveTo(130, 135);
+  riseUp(NO);
+  moveTo(125, 190);
+  moveTo(125, 230);
+  riseUp(YES);
+
+  moveTo(95, 190);
+  riseUp(NO);
+  moveTo(120, 185);
+  riseUp(YES);
+
+  moveTo(100, 215);
+  riseUp(NO);
+  moveTo(120, 215);
+  riseUp(YES);
+
+  moveTo(170, 125);
+  riseUp(NO);
+  moveTo(160, 155);
+  moveTo(145, 180);
+  riseUp(YES);
+
+  moveTo(170, 150);
+  riseUp(NO);
+  moveTo(210, 140);
+  moveTo(225, 150);
+  moveTo(205, 160);
+  moveTo(190, 175);
+  riseUp(YES);
+
+  moveTo(175, 175);
+  riseUp(NO);
+  moveTo(165, 205);
+  moveTo(135, 230);
+  riseUp(YES);
+
+  moveTo(180, 190);
+  riseUp(NO);
+  moveTo(215, 225);
+  moveTo(235, 225);
+  riseUp(YES);
+}
+
+void word_5165() //入
+{
+  moveTo(140, 115);
+  riseUp(NO);
+  moveTo(125, 145);
+  moveTo(60, 205);
+  riseUp(YES);
+
+  moveTo(110, 95);
+  riseUp(NO);
+  moveTo(125, 100);
+  moveTo(195, 195);
+  moveTo(240, 205);
+  riseUp(YES);
+}
+
+void word_5f0f() //式
+{
+  moveTo(85, 130);
+  riseUp(NO);
+  moveTo(195, 110);
+  riseUp(YES);
+
+  moveTo(85, 165);
+  riseUp(NO);
+  moveTo(135, 155);
+  riseUp(YES);
+
+  moveTo(110, 165);
+  riseUp(NO);
+  moveTo(110, 200);
+  riseUp(YES);
+
+  moveTo(75, 215);
+  riseUp(NO);
+  moveTo(150, 185);
+  riseUp(YES);
+
+  moveTo(155, 65);
+  riseUp(NO);
+  moveTo(160, 120);
+  moveTo(170, 175);
+  moveTo(195, 215);
+  moveTo(225, 235);
+  moveTo(225, 195);
+  riseUp(YES);
+
+  moveTo(185, 75);
+  riseUp(NO);
+  moveTo(205, 95);
+  riseUp(YES);
+}
+
+void word_4f73() //佳
+{
+  moveTo(125, 70);
+  riseUp(NO);
+  moveTo(105, 120);
+  moveTo(65, 165);
+  riseUp(YES);
+
+  moveTo(110, 125);
+  riseUp(NO);
+  moveTo(110, 175);
+  moveTo(105, 230);
+  riseUp(YES);
+
+  moveTo(150, 115);
+  riseUp(NO);
+  moveTo(200, 105);
+  riseUp(YES);
+
+  moveTo(175, 70);
+  riseUp(NO);
+  moveTo(175, 135);
+  riseUp(YES);
+
+  moveTo(135, 150);
+  riseUp(NO);
+  moveTo(175, 145);
+  moveTo(225, 135);
+  riseUp(YES);
+
+  moveTo(145, 185);
+  riseUp(NO);
+  moveTo(205, 175);
+  riseUp(YES);
+
+  moveTo(175, 155);
+  riseUp(NO);
+  moveTo(175, 205);
+  riseUp(YES);
+
+  moveTo(130, 220);
+  riseUp(NO);
+  moveTo(175, 215);
+  moveTo(230, 210);
+  riseUp(YES);
+}
+
+void word_5bb9() // 容
+{
+  moveTo(130, 65);
+  riseUp(NO);
+  moveTo(150, 90);
+  riseUp(YES);
+
+  moveTo(90, 85);
+  riseUp(NO);
+  moveTo(80, 125);
+  riseUp(YES);
+
+  moveTo(95, 95);
+  riseUp(NO);
+  moveTo(200, 85);
+  moveTo(215, 95);
+  moveTo(185, 110);
+  riseUp(YES);
+
+  moveTo(120, 115);
+  riseUp(NO);
+  moveTo(90, 150);
+  riseUp(YES);
+
+  moveTo(150, 110);
+  riseUp(NO);
+  moveTo(180, 135);
+  riseUp(YES);
+
+  moveTo(145, 135);
+  riseUp(NO);
+  moveTo(105, 180);
+  moveTo(60, 205);
+  riseUp(YES);
+
+  moveTo(145, 145);
+  riseUp(NO);
+  moveTo(190, 180);
+  moveTo(205, 190);
+  moveTo(235, 190);
+  riseUp(YES);
+
+  moveTo(110, 190);
+  riseUp(NO);
+  moveTo(120, 230);
+  riseUp(YES);
+
+  moveTo(115, 190);
+  riseUp(NO);
+  moveTo(170, 180);
+  moveTo(180, 185);
+  moveTo(165, 220);
+  riseUp(YES);
+
+  moveTo(125, 225);
+  riseUp(NO);
+  moveTo(170, 225);
+  riseUp(YES);
+}
+
+void word_5d50() //嵐
+{
+  moveTo(145, 60);
+  riseUp(NO);
+  moveTo(145, 100);
+  riseUp(YES);
+
+  moveTo(105, 75);
+  riseUp(NO);
+  moveTo(95, 100);
+  moveTo(90, 110);
+  moveTo(95, 120);
+  moveTo(115, 105);
+  moveTo(190, 95);
+  riseUp(YES);
+
+  moveTo(200, 70);
+  riseUp(NO);
+  moveTo(195, 110);
+  riseUp(YES);
+
+  moveTo(100, 130);
+  riseUp(NO);
+  moveTo(100, 180);
+  moveTo(85, 215);
+  moveTo(65, 235);
+  riseUp(YES);
+
+  moveTo(105, 130);
+  riseUp(NO);
+  moveTo(165, 120);
+  moveTo(195, 115);
+  moveTo(205, 125);
+  moveTo(190, 145);
+  moveTo(190, 175);
+  moveTo(200, 215);
+  moveTo(230, 235);
+  moveTo(230, 200);
+  riseUp(YES);
+
+  moveTo(115, 155);
+  riseUp(NO);
+  moveTo(165, 145);
+  riseUp(YES);
+
+  moveTo(120, 170);
+  riseUp(NO);
+  moveTo(125, 200);
+  riseUp(YES);
+
+  moveTo(125, 170);
+  riseUp(NO);
+  moveTo(150, 165);
+  moveTo(165, 160);
+  moveTo(175, 170);
+  moveTo(165, 190);
+  riseUp(YES);
+
+  moveTo(125, 195);
+  riseUp(NO);
+  moveTo(165, 190);
+  riseUp(YES);
+
+  moveTo(140, 155);
+  riseUp(NO);
+  moveTo(140, 215);
+  riseUp(YES);
+
+  moveTo(105, 225);
+  riseUp(NO);
+  moveTo(165, 215);
+  riseUp(YES);
+
+  moveTo(160, 205);
+  riseUp(NO);
+  moveTo(180, 230);
+  riseUp(YES);
+}
+
+void word_7be9() //篩
+{
+moveTo(115, 65);
+riseUp(NO);
+moveTo(90, 100);
+moveTo(80, 110);
+riseUp(YES);
+
+moveTo(105, 90);
+riseUp(NO);
+moveTo(130, 85);
+moveTo(140, 85);
+riseUp(YES);
+
+moveTo(110, 100);
+riseUp(NO);
+moveTo(120, 105);
+moveTo(125, 110);
+riseUp(YES);
+
+moveTo(175, 60);
+riseUp(NO);
+moveTo(155, 100);
+moveTo(145, 110);
+riseUp(YES);
+
+moveTo(170, 85);
+riseUp(NO);
+moveTo(200, 80);
+moveTo(215, 80);
+riseUp(YES);
+
+moveTo(170, 95);
+riseUp(NO);
+moveTo(180, 100);
+moveTo(190, 110);
+riseUp(YES);
+
+moveTo(110, 115);
+riseUp(NO);
+moveTo(100, 130);
+moveTo(95, 140);
+riseUp(YES);
+
+moveTo(85, 135);
+riseUp(NO);
+moveTo(85, 185);
+moveTo(85, 220);
+riseUp(YES);
+
+moveTo(95, 140);
+riseUp(NO);
+moveTo(120, 135);
+moveTo(130, 140);
+moveTo(120, 155);
+riseUp(YES);
+
+moveTo(90, 160);
+riseUp(NO);
+moveTo(115, 160);
+moveTo(125, 160);
+riseUp(YES);
+
+moveTo(90, 180);
+riseUp(NO);
+moveTo(120, 175);
+moveTo(130, 180);
+moveTo(120, 195);
+riseUp(YES);
+
+moveTo(90, 205);
+riseUp(NO);
+moveTo(115, 200);
+moveTo(125, 200);
+riseUp(YES);
+
+moveTo(140, 130);
+riseUp(NO);
+moveTo(190, 120);
+moveTo(215, 120);
+riseUp(YES);
+
+moveTo(145, 155);
+riseUp(NO);
+moveTo(150, 185);
+moveTo(150, 200);
+riseUp(YES);
+
+moveTo(150, 155);
+riseUp(NO);
+moveTo(205, 150);
+moveTo(220, 150);
+moveTo(210, 165);
+moveTo(210, 205);
+moveTo(200, 195);
+moveTo(190, 190);
+riseUp(YES);
+
+moveTo(175, 130);
+riseUp(NO);
+moveTo(175, 175);
+moveTo(175, 215);
+moveTo(170, 245);
+riseUp(YES);
+}
+
+void word_96ef() //雯
+{
+  moveTo(110, 75);
+  riseUp(NO);
+  moveTo(180, 70);
+  riseUp(YES);
+
+  moveTo(90, 90);
+  riseUp(NO);
+  moveTo(80, 120);
+  riseUp(YES);
+
+  moveTo(100, 100);
+  riseUp(NO);
+  moveTo(205, 90);
+  moveTo(210, 95);
+  moveTo(195, 105);
+  riseUp(YES);
+
+  moveTo(145, 80);
+  riseUp(NO);
+  moveTo(145, 130);
+  riseUp(YES);
+
+  moveTo(110, 110);
+  riseUp(NO);
+  moveTo(120, 115);
+  riseUp(YES);
+
+  moveTo(100, 135);
+  riseUp(NO);
+  moveTo(125, 125);
+  riseUp(YES);
+
+  moveTo(175, 100);
+  riseUp(NO);
+  moveTo(165, 115);
+  riseUp(YES);
+
+  moveTo(165, 125);
+  riseUp(NO);
+  moveTo(180, 135);
+  riseUp(YES);
+
+  moveTo(130, 135);
+  riseUp(NO);
+  moveTo(145, 150);
+  riseUp(YES);
+
+  moveTo(95, 165);
+  riseUp(NO);
+  moveTo(190, 155);
+  riseUp(YES);
+
+  moveTo(160, 165);
+  riseUp(NO);
+  moveTo(150, 195);
+  moveTo(130, 215);
+  moveTo(110, 230);
+  moveTo(95, 230);
+  riseUp(YES);
+
+  moveTo(105, 175);
+  riseUp(NO);
+  moveTo(115, 180);
+  moveTo(180, 225);
+  moveTo(190, 230);
+  moveTo(220, 230);
+  riseUp(YES);
+}
